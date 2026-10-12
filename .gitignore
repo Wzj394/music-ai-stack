@@ -1,0 +1,58 @@
+# ============ 操作系统 ============
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# ============ 编辑器 / IDE ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ============ Node（如果以后加前端） ============
+node_modules/
+dist/
+*.log
+
+# ============ 音频 / 模型 / 大数据文件 ============
+# 知识库仓库不放二进制大文件。需要的话用 Git LFS 或外部网盘，在这里贴链接。
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.aiff
+*.aif
+*.ogg
+*.opus
+*.wv
+*.ape
+
+*.mid
+*.midi
+
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.h5
+*.pb
+
+# ============ 临时 ============
+tmp/
+temp/
+*.tmp
